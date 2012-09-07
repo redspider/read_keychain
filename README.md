@@ -9,3 +9,11 @@ instructions in the header you must follow in order to get the dependencies, and
 Do not share this script with anyone who can't read python enough to be certain they're running something safe.
 
 Actually, scratch that, don't share it. Just don't.
+
+== Usage ==
+
+python read_keychain.py --evaluate /path/to/keychain
+
+This will tell you just how abominably shit you are at having unique, strong passwords for each site.
+
+--export will give you a CSV export to stdout.
