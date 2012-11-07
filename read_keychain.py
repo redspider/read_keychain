@@ -383,7 +383,7 @@ if __name__ == "__main__":
     log.debug("Verbose mode: %s" % options.verbose)
     log.debug("Keychain: %s" % args[0])
 
-    if not options.evaluate or options.export:
+    if not (options.evaluate or options.export):
         parser.error("You must specify either --evaluate or --export")
         sys.exit(-1)
 
